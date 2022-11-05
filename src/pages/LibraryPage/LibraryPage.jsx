@@ -19,7 +19,7 @@ export const LibraryPage = (props) => {
             {
                 props.books
                     .filter(book => book.genre === activeGenre)
-                    .map(book => <BookCard book={book}/>)
+                    .map(book => <BookCard key={book.id} book={book}/>)
             }
         </div>
     </div>

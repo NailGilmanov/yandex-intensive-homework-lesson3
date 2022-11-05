@@ -1,0 +1,14 @@
+.annotation {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+
+.annotation__title {
+    margin: 0;
+}
+
+.annotation__text {
+    font-size: 18px;
+}

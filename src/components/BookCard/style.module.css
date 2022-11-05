@@ -1,4 +1,5 @@
 .bookcard {
+    position: relative;
     width: 100%;
     margin-bottom: 16px;
     background-color: white;
@@ -8,4 +9,69 @@
 
 .bookcard__title {
     margin: 0;
+}
+
+.bookcard__description {
+    color: #00000080;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "Open Sans" sans-serif;
+    font-weight: 500;
+}
+
+.bookcard__counter {
+    position: absolute;
+    right: 50px;
+    top: 80px;
+    display: flex;
+}
+
+.counter__content {
+    font-size: 24px;
+    font-weight: 600;
+    color: #00000080;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 25px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
+}
+
+.counter__btnminus:disabled {
+    background-color: #00000080;
+}
+
+
+.counter__btnplus {
+    font-size: 40px;
+    font-weight: 500;
+    height: 40px;
+    width: 40px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+    border: none; 
+    outline: none;
+}
+
+.counter__btnplus::before {
+    position: absolute;
+    top: 10px;
+    width: 10px;
+    color: white;
+    height: 3px;
+}
+
+.counter__btnminus {
+    font-size: 40px;
+    font-weight: 500;
+    height: 40px;
+    width: 40px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    border: none; 
+    outline: none;
 }
