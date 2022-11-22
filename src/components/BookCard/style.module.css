@@ -75,3 +75,8 @@
     border: none; 
     outline: none;
 }
+
+.bookcard__grade {
+    color: #00000080;
+    font-size: 20px;
+}

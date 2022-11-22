@@ -9,6 +9,7 @@ export const BookCard = ({ book }) => {
         <h2 className={style.bookcard__title}>{ book.name }</h2>
         <p className={style.bookcard__description}>{ book.author }</p>
         <p className={style.bookcard__description}>{ book.genre }</p>
+        <p className={style.bookcard__grade}>&#9733; &#9733; &#9733; &#9733; &#9734;</p>
         <h2 className={style.bookcard__price}>{ book.price } &#8381;</h2>
         <div className={style.bookcard__counter}>
             <button className={style.counter__btnminus} disabled={count === 0} onClick={() => setCount(count - 1)}><span>-</span></button>

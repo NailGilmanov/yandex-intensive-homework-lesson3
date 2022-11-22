@@ -6,8 +6,8 @@ import { books } from './constants/mock'
 export const App = () => {
     return <Layout>
         <div>
-            {/* <LibraryPage books={ books }/> */}
-            <BookPage book={ books[0] } />
+            <LibraryPage books={ books }/>
+            {/* <BookPage book={ books[0] } /> */}
         </div>
     </Layout>
 }
