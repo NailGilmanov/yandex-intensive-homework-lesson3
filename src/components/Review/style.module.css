@@ -4,3 +4,14 @@
     padding: 20px;
     margin-bottom: 16px;
 }
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stars {
+  font-size: 24px;
+  color: #00000080;
+}

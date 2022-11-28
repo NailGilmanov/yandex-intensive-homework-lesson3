@@ -124,7 +124,7 @@ const normalizedCategories = [
       id: "d75f763a-eadd-49be-8918-ed0daa8dd124",
       user: "d85f762a-eadd-49be-8918-ed0daa8dd024",
       text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      rating: 5,
+      rating: 3,
     },
   
     {

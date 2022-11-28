@@ -30,7 +30,7 @@ export const BookPage = () => {
             <Annotation book={ book }/>
         </div>
         <div className="reviews">
-            <Reviews book={ book }/>
+            <Reviews bookId={bookId}/>
         </div>
     </div>
 }
