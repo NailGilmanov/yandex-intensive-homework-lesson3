@@ -26,7 +26,7 @@ export const BookPage = () => {
 
     return <div>
         <div className={style.content}>
-            <BookCard book={ book } />
+            <BookCard bookId={bookId} />
             <Annotation book={ book }/>
         </div>
         <div className="reviews">

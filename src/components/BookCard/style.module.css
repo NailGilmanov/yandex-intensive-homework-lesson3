@@ -80,3 +80,8 @@
     color: #00000080;
     font-size: 20px;
 }
+
+.navlink {
+    text-decoration:none;
+    color: #000000;
+}
