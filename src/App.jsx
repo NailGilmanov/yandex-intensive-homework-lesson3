@@ -6,6 +6,7 @@ import { Category } from './components/Category/Category';
 import { store } from "./store";
 import { Provider } from "react-redux";
 import { NotFoundPage } from './pages/NotFoundPage/NotFoundPage'
+import { CartPage } from './pages/CartPage/CartPage';
 
 export const App = () => {
     return (
@@ -17,6 +18,7 @@ export const App = () => {
                             <Route path="/categories/:categoryId" element={<Category />}/>
                         </Route>
                         <Route path="/books/:bookId" element={<BookPage />}/>
+                        <Route path="/cart" element={<CartPage />} />
                         <Route path="*" element={<NotFoundPage />} />
                     </Routes>
                 </Layout>

@@ -9,3 +9,13 @@
     letter-spacing: 0em;
     text-align: left;
 }
+
+.text {
+    text-decoration: none;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
